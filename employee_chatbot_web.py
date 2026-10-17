@@ -153,7 +153,7 @@ def get_best_employees(team_name, df, top_n=5):
 
 
 # Streamlit UI
-st.title("💼 Employee Recommendation Chatbot")
+st.title("💼 Employee Recommendation AI Agent ")
 st.write(
     "Enter a team or department name to get top-performing employees "
     "based on OKR, KPI, and Manager scores."
