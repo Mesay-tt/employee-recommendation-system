@@ -296,7 +296,7 @@ if "team_name" not in merged_df.columns:
 
 # User input
 team_name_input = st.text_input(
-    "🔎 Which team or department would you like me to analyze?",
+    " Which team or department would you like me to analyze?",
     placeholder="Enter a department name..."
 )
 
