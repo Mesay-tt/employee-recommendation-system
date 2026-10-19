@@ -257,7 +257,7 @@ def get_best_employees(team_name, df, top_n=5):
 # 4. STREAMLIT USER INTERFACE
 # --------------------------------------------------
 
-st.title("🤖 Employee Recommendation AI Agent")
+st.title(" Employee Recommendation AI Agent")
 
 st.write(
     "Welcome! I analyze employee performance data to identify "
@@ -305,7 +305,7 @@ team_name_input = st.text_input(
 if team_name_input.strip():
 
     with st.spinner(
-        f"🤖 Analyzing employee performance for "
+        f"Analyzing employee performance for "
         f"{team_name_input.strip()}..."
     ):
 
