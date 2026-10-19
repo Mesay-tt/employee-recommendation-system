@@ -9,7 +9,7 @@ import difflib
 
 st.set_page_config(
     page_title="Employee Recommendation AI Agent",
-    page_icon="🤖",
+    page_icon="",
     layout="wide"
 )
 
@@ -265,7 +265,7 @@ st.write(
 )
 
 st.info(
-    "💡 Enter a team or department name below. "
+    "Enter a team or department name below. "
     "I will analyze the available performance data and "
     "recommend the highest-ranked employees."
 )
@@ -340,7 +340,7 @@ if team_name_input.strip():
             f"employees for the {team_name_input.strip()} department."
         )
 
-        st.subheader("🏆 AI Recommendation Summary")
+        st.subheader("AI Recommendation Summary")
 
         st.write(
             "I compared employee scores within the selected department "
@@ -354,7 +354,7 @@ if team_name_input.strip():
         )
 
         # OKR results
-        st.subheader("🎯 Top Recommendations — OKR Performance")
+        st.subheader("Top Recommendations — OKR Performance")
 
         st.write(
             "These employees have the highest available average "
@@ -372,7 +372,7 @@ if team_name_input.strip():
             )
 
         # KPI results
-        st.subheader("📊 Top Recommendations — KPI Performance")
+        st.subheader("Top Recommendations — KPI Performance")
 
         st.write(
             "These employees have the highest available average "
@@ -390,7 +390,7 @@ if team_name_input.strip():
             )
 
         # Manager results
-        st.subheader("👔 Top Recommendations — Manager Evaluation")
+        st.subheader("Top Recommendations — Manager Evaluation")
 
         st.write(
             "These employees have the highest available manager "
