@@ -336,7 +336,7 @@ if team_name_input.strip():
 
         # Recommendation introduction
         st.success(
-            f"✅ Analysis complete! Here are the top-ranked "
+            f"Analysis complete! Here are the top-ranked "
             f"employees for the {team_name_input.strip()} department."
         )
 
